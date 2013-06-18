@@ -1,3 +1,6 @@
+
+library range_slider;
+
 import 'dart:html';
 import 'dart:async';
 import 'dart:math';
