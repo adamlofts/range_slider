@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RangeSlider</title>
+    <link rel="stylesheet" href="packages/range_slider/rangeslider.css">
+  </head>
+  <body>
+    <h1>RangeSlider</h1>
+    
+    <style>
+            
+      body {
+        background-color: #F8F8F8;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.2em;
+        margin: 15px;
+      }
+      
+      h1, p {
+        color: #333;
+      }
+      
+      body > div {
+        margin: 10px;
+      }
+    </style>
+    
+    <p>A basic slider</p>
+    <div></div>
+    
+    <p>Add some color</p>
+    <div slider_color="#8ae234"></div>
+    
+    <p>With a pre-set value</p>
+    <div slider_color="red" value="0.5"></div>
+    
+    <p>With different bounds</p>
+    <div slider_color="orange" value="20" min="15" max="30"></div>
+    
+    <h2>Events</h2>
+    <p>A slider fires a <b>change</b> event during a drag and a <b>commit</b> event when the
+    drag finishes.</p>
+    
+    <script type="application/dart" src="main.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

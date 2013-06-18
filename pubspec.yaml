@@ -1,0 +1,4 @@
+name: range_slider
+description: A slider widget
+dependencies:
+  browser: any
