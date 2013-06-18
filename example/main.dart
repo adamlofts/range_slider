@@ -2,7 +2,7 @@ import 'dart:html';
 import 'dart:async';
 import 'dart:math';
 
-import 'package:range_slider/rangeslider.dart';
+import 'package:range_slider/range_slider.dart';
 
 void main() {
   

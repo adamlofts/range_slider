@@ -1,4 +1,7 @@
 name: range_slider
+version: 0.0.1
+author: Adam Lofts <adam.lofts@gmail.com>
 description: A slider widget
+homepage: https://github.com/adamlofts/range_slider
 dependencies:
-  browser: any
+  browser: '>=0.5.16 <0.5.17'
