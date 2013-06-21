@@ -67,8 +67,11 @@ class RangeSlider {
     $div.style.width = "1px";
     $div.style.height = "1px";
     document.body.append($div);
-    
     evt.dataTransfer.setDragImage($div, 0, 0);
+    
+    // This is to hide the drag image
+    evt.dataTransfer.effectAllowed = "none";
+    
     _start_offset = (evt.page.x - _$a.offsetLeft);
     _width = $elmt.getBoundingClientRect().width;
   }
